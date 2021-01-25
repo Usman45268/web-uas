@@ -19,9 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $link_toko = $_POST['lt'];
 
 
-    if (empty($namabarang) ) {
-      $status = "Nama barang tidak boleh kosong";
-    }else{
+
 
       $sql = "UPDATE barang SET nama_barang='$namabarang', gambar_link='$imageurl', deskripsi='$deskripsi', link_toko='$link_toko', kategori_barang='$data->kategori_barang' WHERE id_barang ='$id'";
       $result = mysqli_query($conn,$sql);
@@ -34,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       }
     
     
-    }
+    
    
 }
 
