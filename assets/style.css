@@ -1,0 +1,21 @@
+.jumbotron{
+	background-image: url(img/banner.png);
+	background-size: cover;
+	height: 700px;
+	margin-top: -80px;
+}
+.jumbotron .display-4{
+	margin-top: 200px;
+}
+.jumbotron .btn{
+	border-radius: 25px;
+}
+.jumbotron-2{
+	background-image: url(img/banner2.png);
+	background-size: cover;
+	height: 820px;
+	margin-top: -170px;
+}
+.set-align{
+	text-align: right;
+}
