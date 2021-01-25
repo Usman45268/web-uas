@@ -11,9 +11,7 @@
             $deskripsi = $_POST['dsc'];
             $link_toko = $_POST['lt'];
 
-            if (empty($namabarang)){
-              $status = "Nama barang tidak boleh kosong";
-            }else{
+         
               $sql = "INSERT into barang VALUES(NULL,'$namabarang','$deskripsi','$link_toko','$gambar',$hrefid)";
               $result = mysqli_query($conn,$sql);
               if ($result) {
@@ -22,7 +20,7 @@
               }else{
                   $status = "Simpan data gagal :".mysqli_error($conn);
               }
-            }
+            
             
         }
 
