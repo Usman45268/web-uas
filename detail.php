@@ -46,25 +46,15 @@
 </nav>
 
 
-<div class=" m-3 p-3">
-
-    
-        <img src=<?=$data->gambar_link?> class="img-fluid mb-2"  alt="Responsive image">
+<div class=" mt-5 p-5">
+        <img src=<?=$data->gambar_link?>  alt="Responsive image">
          <h2><?=$data->nama_barang?></h2>
-         <p class="mt-3 mb-3"><?=$data->deskripsi?></p>
-       
-   
-     
-    
+         <p class="mt-3 mb-3"><?=$data->deskripsi?></p>   
 </div>
-
 
 <div class="container">
 <footer class="pt-4 my-md-3 pt-md-3 border-top">
-    
-      
       <p>Support by : Freepik, Bootstrap
- 
   </footer>
  </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
