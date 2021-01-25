@@ -11,7 +11,7 @@
 ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link href="css/barang.css" rel="stylesheet">
+
 
 <body style="background-color: #f6f6f6">
   <!--navbar-->
@@ -46,7 +46,7 @@
 </nav>
 
 
-<div class=" m-5 p-5">
+<div class=" m-3 p-3">
 
     
         <img src=<?=$data->gambar_link?> class="img-fluid mb-2"  alt="Responsive image">
