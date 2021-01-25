@@ -51,7 +51,7 @@
     
         <img src=<?=$data->gambar_link?> class="img-fluid mb-2"  alt="Responsive image">
          <h2><?=$data->nama_barang?></h2>
-         <p class="mt-5 mb-5"><?=$data->deskripsi?></p>
+         <p class="mt-3 mb-3"><?=$data->deskripsi?></p>
        
    
      
