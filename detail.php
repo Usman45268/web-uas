@@ -60,14 +60,11 @@
 
 
 <div class="container">
-<footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
+<footer class="pt-4 my-md-3 pt-md-3 border-top">
+    
       
-      <p>Support by : Freepik & Bootstrap
-      </div>
-
-    </div>
+      <p>Support by : Freepik, Bootstrap
+ 
   </footer>
  </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
